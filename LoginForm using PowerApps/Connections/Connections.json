@@ -1,0 +1,30 @@
+{
+  "191b0e38-a66b-4add-9f39-305605c3b47b": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1685/1.0.1685.3700/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://adypueduin.sharepoint.com/sites/loginformlist": {
+        "dataSources": {
+          "Login Form List": {
+            "tableName": "e83111b1-816e-4a6b-aa15-c2a85c632be0"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Login Form List"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "191b0e38-a66b-4add-9f39-305605c3b47b"
+  }
+}
